@@ -1,0 +1,177 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;  
+}
+.container {
+  padding: 0 18px;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;  
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 80vw;
+    padding: 0;
+  }
+}
+.app-bar {
+  display: flex;
+  padding: 20px 0px;
+}
+.app-bar_logo {
+  width: 220px;
+}
+.title-bar {
+  flex-grow: 1;
+  padding: 12px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #DC143C ;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.account-list {
+  width: 100%;
+}
+.account-card {
+  flex-grow: 1;
+  margin: 16px;
+}
+.account-card h1 { 
+  font-size: 24px;
+  font-weight: bolder;  
+}
+.account-card h2 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.account-info {
+  background-color:#D3D3D3;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.account-action {
+  padding: 8px;
+}
+.account-action button {
+  float: right;
+}
+.account-card-icon {
+  width: 32px;
+}
+.back-button {
+  width: 24px;
+  margin-right: 12px;
+  filter: invert(1);
+}
+.account-description {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 2px solid #D3D3D3;
+  border-bottom: 2px solid #D3D3D3;
+  border-right: 2px solid #D3D3D3;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.new-button {
+  font-size: 24px;
+  background-color:#D3D3D3;
+  color: black;
+  margin: 12px;
+  border-radius: 4px;
+}
+.account-form {
+  width: 100%;
+  margin: 16px;
+}
+.account-details {
+  margin: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.account-details h2 {
+  font-size: 32px;
+  font-weight: 600;  
+}
+.account-details p {
+  font-size: 24px;
+}
+.account-form-action {
+  display: flex;
+  margin-top: 18px;
+}
+.account-form-action button {
+  font-size: 24px;
+  padding: 12px;
+  margin-right: 12px;
+}
+.transaction-card {
+  margin: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 12px 12px 16px;
+  border: 2px solid #D3D3D3;
+}
+.transaction-amount {
+  font-size: 24px;
+  font-weight: 600;  
+}
+.withdraw {
+  color: red;
+}
+.deposit {
+  color: green;
+}
+.transaction-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+.transaction-date {
+  font-size: 16px;  
+}
+.filter-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.filter-content {
+  margin-right: 12px;
+}
+.filter-content p {
+  font-size: 16px;
+}
+.filter-content select {
+  font-size: 16px;
+}
+.transaction-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deposit-button {
+  background-color: green;
+}
+.transaction-form-action {
+  display: flex;
+  margin-top: 18px;
+}
+.transaction-form-action button {
+  background-color: #D3D3D3;
+  color: black;
+}
